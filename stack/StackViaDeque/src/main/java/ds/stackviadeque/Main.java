@@ -14,7 +14,7 @@ public class Main {
         stack.push("Roger Federer");
         stack.push("David Ferer");
         
-        System.out.println("First in stack: " + stack.getFirst());
-        System.out.println("Pop from stack: " + stack.pop());
+        System.out.println("First in stack: " + stack.getFirst()); // David Ferer
+        System.out.println("Pop from stack: " + stack.pop()); // David Ferer
     }    
 }
