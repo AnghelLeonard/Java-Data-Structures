@@ -22,5 +22,5 @@
 # Java Stack Implementations
 
 - java.util.Stack, but prefer java.util.Deque
-- java.util.ArrayDeque (not thread-safe stack alike) 
-- java.util.concurrent.ConcurrentLinkedDeque (thread-safe stack alike)
+- java.util.ArrayDeque (not thread-safe stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaDeque)
+- java.util.concurrent.ConcurrentLinkedDeque (thread-safe stack alike) [example]()
