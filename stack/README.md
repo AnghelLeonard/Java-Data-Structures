@@ -19,3 +19,8 @@
 - Arithmetic Expression Evalution
 - Iterative Tower of Hanoi
 
+# Java Stack Implementations
+
+- java.util.Stack, but prefer java.util.Deque
+- java.util.ArrayDeque (not thread-safe stack alike) 
+- java.util.concurrent.ConcurrentLinkedDeque (thread-safe stack alike)
