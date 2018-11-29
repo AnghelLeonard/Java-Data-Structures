@@ -9,7 +9,8 @@
 
 # Java Stack Implementations
 
-*Queue ("single end"): add things to one end and take them from the other (FIFO)*\
-*Deque ("double ended queue"): add things to either end, and take them from either end*\
-\
-- java.util.ArrayDeque
+*java.util.Queue ("single end"): add things to one end and take them from the other (FIFO)*\
+*java.util.Deque ("double ended queue"): add things to either end, and take them from either end*\
+*java.util.Deque is a subiterface of java.utilQueue*\
+
+- java.util.ArrayDeque, not thread-safe, example
