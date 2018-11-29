@@ -11,6 +11,9 @@
 
 *java.util.Queue ("single end"): add things to one end and take them from the other (FIFO)*\
 *java.util.Deque ("double ended queue"): add things to either end, and take them from either end*\
-*java.util.Deque is a subiterface of java.utilQueue*\
+*java.util.Deque is a subiterface of java.utilQueue*
 
 - java.util.ArrayDeque, not thread-safe, example
+- java.util.ConcurrentLinkedDeque and java.util.ConcurrentLinkedQueue, thread-safe, example
+- java.util.LinkedList, not thread-safe and not efficient
+
