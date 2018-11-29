@@ -11,3 +11,7 @@
 - Event-Driven simulations
 - Dijkstra's shortest path algorithm
 
+# Java Priority Queue Implementations
+
+- java.util.PriorityQueue, not thread-safe, based on natural order (example) or explicit Comparator (example)
+- java.util.concurrent.PriorityBlockingQueue, thread-safe, based  on natural or explicit Comparator
