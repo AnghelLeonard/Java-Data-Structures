@@ -13,7 +13,7 @@
 *java.util.Deque ("double ended queue"): add things to either end, and take them from either end*\
 *java.util.Deque is a subiterface of java.utilQueue*
 
-- java.util.ArrayDeque, not thread-safe, example
+- java.util.ArrayDeque, not thread-safe, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/queue/QueueViaArrayDeque)
 - java.util.ConcurrentLinkedDeque and java.util.ConcurrentLinkedQueue, thread-safe, example
 - java.util.LinkedList, not thread-safe and not efficient
 
