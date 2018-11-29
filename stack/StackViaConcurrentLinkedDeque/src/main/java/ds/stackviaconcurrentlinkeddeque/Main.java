@@ -40,6 +40,7 @@ public class Main {
                     Thread.sleep(2000);
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
+                    // log or throw
                 }
 
                 logger.log(Level.INFO,
