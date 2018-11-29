@@ -12,8 +12,8 @@ public class Main {
     private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     // A ConcurrentLinkedDeque implementation can be used as a Stack (Last-In-First-Out) 
-    // Switch to ArrayDeque to see how polling is trying to poll 
-    // the same item in different threads because ArrayDeque is not blocking
+    // Switch to ArrayDeque to see how pop is trying to pop
+    // the same item in different threads because ArrayDeque is not thread-safe
     private static Deque<Integer> stack = new ConcurrentLinkedDeque<>();
 
     public static void main(String[] args) {
