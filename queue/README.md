@@ -7,3 +7,9 @@
 - Breadth First Search (BFS) graph traversal
 - Tracking most recent added elements
 
+# Java Stack Implementations
+
+*Queue ("single end"): add things to one end and take them from the other (FIFO)*\
+*Deque ("double ended queue"): add things to either end, and take them from either end*\
+\
+- java.util.ArrayDeque
