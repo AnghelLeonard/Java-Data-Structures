@@ -14,4 +14,4 @@
 # Java Priority Queue Implementations
 
 - java.util.PriorityQueue, not thread-safe, based on natural order ([example](https://github.com/AnghelLeonard/Data-Structures/tree/master/priorityqueue/PriorityQueueViaPriorityQueue)) or explicit Comparator ([example](https://github.com/AnghelLeonard/Data-Structures/tree/master/priorityqueue/PriorityQueueViaPriorityQueueWithComparator))
-- java.util.concurrent.PriorityBlockingQueue, thread-safe, based  on natural or explicit Comparator
+- java.util.concurrent.PriorityBlockingQueue, thread-safe, based  on natural or explicit Comparator, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/priorityqueue/PriorityQueueViaPriorityBlockingQueue)
