@@ -13,7 +13,7 @@ public class Main {
 
     // An ConcurrentLinkedDeque implementation can be used as a Queue
     // Switch to ArrayDeque to see how pop is trying to pop 
-    // the same item in different threads because ArrayDeque is not blocking
+    // the same item in different threads because ArrayDeque is not thread-safe
     private static Deque<Integer> queue = new ConcurrentLinkedDeque<>();
 
     public static void main(String[] args) {
