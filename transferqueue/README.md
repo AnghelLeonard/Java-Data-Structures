@@ -6,4 +6,4 @@
 
 **Java Transfer Queue Implementations**
 
-- java.util.concurrent.TransferQueue, thread-safe, [example]()
+- java.util.concurrent.TransferQueue, thread-safe, [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/transferqueue/QueueViaTransferQueue)
