@@ -33,7 +33,7 @@ public class Main {
                     queue.transfer(element);
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
-                    // log or 
+                    // log or throw
                 }
             });
         }
