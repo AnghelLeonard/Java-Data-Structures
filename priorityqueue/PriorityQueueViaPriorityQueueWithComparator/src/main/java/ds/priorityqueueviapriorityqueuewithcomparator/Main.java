@@ -7,7 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Queue<String> queue = new PriorityQueue<>((t1, t2) -> t1.length() - t2.length());
+        Queue<String> queue = new PriorityQueue<>((t1, t2) -> 
+             Integer.compare(t1.length(), t2.length()));
 
         // enqueue
         queue.offer("Maria");
