@@ -12,4 +12,4 @@
 
 # Java Delay Queue Implementations
 
-- java.util.concurrent.DelayQueue, thread-safe, example
+- java.util.concurrent.DelayQueue, thread-safe, [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/delayqueue/QueueViaDelayQueue)
