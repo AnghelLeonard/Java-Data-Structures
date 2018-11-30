@@ -1,6 +1,6 @@
 package ds.priorityqueueviapriorityblockingqueue;
 
-import java.util.Queue;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.PriorityBlockingQueue;
@@ -13,7 +13,7 @@ public class Main {
 
     // switch to PriorityQueue to see how polling is trying to poll 
     // the same item in different threads because PriorityQueue is not blocking
-    private static Queue<Integer> queue = new PriorityBlockingQueue<>();
+    private static BlockingQueue<Integer> queue = new PriorityBlockingQueue<>();
 
     public static void main(String[] args) {
 
