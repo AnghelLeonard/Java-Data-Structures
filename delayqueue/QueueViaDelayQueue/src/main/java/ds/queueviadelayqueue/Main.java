@@ -26,6 +26,7 @@ public class Main {
         
         // enqueue the trains order ascending by delay
         // the order is ensured by the TrainDelay#compareTo() implementation
+        // use put() if you want to wait for space to be available
         queue.offer(trainToDetroit); // delay 15s               
         queue.offer(trainToLosAngeles); // delay: 10s   
         queue.offer(trainToHuston); // delay 30s                  
@@ -34,9 +35,10 @@ public class Main {
         // after 16s, we can access the Los Angeles and Detroit trains, 
         // but not the Huston (this train still has 14s delay)
         Thread.sleep(WAIT_MS);
-        
+                
         System.out.println("Train: " + queue.poll()); // Los Angeles        
         System.out.println("Train: " + queue.poll()); // Detroit
+        // use take() to wait until a train is available
         System.out.println("Train: " + queue.poll()); // null
     }
     
