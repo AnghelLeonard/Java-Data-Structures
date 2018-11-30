@@ -9,4 +9,4 @@
 
 **Java Synchronous Queue Implementations**
 
-- java.util.concurrent.SynchronousQueue, thread-safe, [example]()
+- java.util.concurrent.SynchronousQueue, thread-safe, [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/synchronousqueue/QueueViaSynchronousQueue)
