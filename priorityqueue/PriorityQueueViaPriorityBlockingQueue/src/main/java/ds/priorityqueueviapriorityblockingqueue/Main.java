@@ -12,7 +12,7 @@ public class Main {
     private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     // switch to PriorityQueue to see how polling is trying to poll 
-    // the same item in different threads because PriorityQueue is not blocking
+    // the same item in different threads because PriorityQueue is not thread-safe
     private static BlockingQueue<Integer> queue = new PriorityBlockingQueue<>();
 
     public static void main(String[] args) {
