@@ -39,7 +39,7 @@ public class Main {
         queue.offer("Roger Federer");
         queue.offer("David Ferer"); 
         
-        // this will return 0, since after removing the queue head is becomes empty
+        // this will return 0
         logger.info(() -> "Queue size: " + queue.size());
 
         executor.shutdown();
