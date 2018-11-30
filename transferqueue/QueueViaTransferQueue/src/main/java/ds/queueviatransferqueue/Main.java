@@ -32,8 +32,7 @@ public class Main {
 
                     queue.transfer(element);
                 } catch (InterruptedException ex) {
-                    Thread.currentThread().interrupt();
-                    // log or throw
+                    Thread.currentThread().interrupt();                    
                 }
             });
         }
@@ -41,8 +40,7 @@ public class Main {
         try {
             Thread.sleep(5000);
         } catch (InterruptedException ex) {
-            Thread.currentThread().interrupt();
-            // log or throw
+            Thread.currentThread().interrupt();           
         };        
 
         // prepare 3 consumers as threads        
@@ -54,8 +52,7 @@ public class Main {
                     logger.log(Level.INFO, "Thread: {0}, Consume element: {1}",
                             new Object[]{Thread.currentThread().getName(), queue.take()});
                 } catch (InterruptedException ex) {
-                    Thread.currentThread().interrupt();
-                    // log or throw
+                    Thread.currentThread().interrupt();                   
                 }
             });
         }
