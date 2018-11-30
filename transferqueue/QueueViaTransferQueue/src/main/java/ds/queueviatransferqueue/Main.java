@@ -42,7 +42,7 @@ public class Main {
             Thread.sleep(5000);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
-            // log or 
+            // log or throw
         };        
 
         // prepare 3 consumers as threads        
@@ -55,7 +55,7 @@ public class Main {
                             new Object[]{Thread.currentThread().getName(), queue.take()});
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
-                    // log or 
+                    // log or throw
                 }
             });
         }
