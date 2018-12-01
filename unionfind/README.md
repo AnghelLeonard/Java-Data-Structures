@@ -2,7 +2,8 @@
 
 **What kind of problems are commonly solved via union find:**
 
-- Kruskal’s Algorithm (minimum spanning tree algorithm) applied further in landing cables, tour operations and TV network
+- Kruskal’s Algorithm (minimum spanning tree algorithm) applied further in/
+landing cables, tour operations and TV network
 - Computing the shorelines of a terrain
 - Classifying a set of atoms into molecules or fragments
 - Connected component labeling in image analysis
