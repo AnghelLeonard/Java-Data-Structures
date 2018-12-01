@@ -22,7 +22,7 @@ public class Main {
         
         System.out.println("--------------------------------");
         
-        // calling find now will cause path compression
+        // calling find() now will cause path compression
         set.find(11);
                 
         System.out.println("Parent: 0");
