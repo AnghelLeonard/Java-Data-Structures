@@ -16,5 +16,5 @@
 # Java Union Find Algorithm
 
 - No default implementation in JDK
-- Find here [example]() of Union Find without path compression
+- Find here [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/unionfind/DisjointSet) of Union Find without path compression
 - Find here [example]() of Union Find with path compression
