@@ -1,3 +1,0 @@
-# Fenwick Binary Indexed Tree
-
-![]()
