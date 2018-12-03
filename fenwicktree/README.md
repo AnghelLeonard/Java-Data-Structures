@@ -12,5 +12,5 @@
 # Java Implementations for Fenwick Tree or Binary Indexed Tree
 
 - No Java default implementation
-- Implementation supporting point update [example]()
+- Implementation supporting point update [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/fenwicktree/RangeQueryAndPointUpdate)
 
