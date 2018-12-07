@@ -1,6 +1,6 @@
 # Stack
 
-**What kind of problems are commonly solved via stacks (Last-In-First-Out):**
+**What kind of problems are commonly solved via stacks (LIFO, Last-In-First-Out):**
 
 - Almost any kind of problems that are naturally represented as piles (e.g., books, plates, letters, containers, etc)
 - Implement undo/redo feature that is so common in desktop applications
@@ -21,6 +21,6 @@
 
 # Java Stack Implementations
 
-- java.util.Stack, but prefer java.util.Deque since this relies on the syncronized Vector
-- java.util.ArrayDeque (not thread-safe stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaArrayDeque)
-- java.util.concurrent.ConcurrentLinkedDeque (thread-safe stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaConcurrentLinkedDeque)
+- java.util.Stack, but prefer java.util.Deque since Stack relies on the synchronized Vector (Stack methods are synchronized)
+- java.util.ArrayDeque (**not thread-safe** stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaArrayDeque)
+- java.util.concurrent.ConcurrentLinkedDeque (**thread-safe** stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaConcurrentLinkedDeque)
