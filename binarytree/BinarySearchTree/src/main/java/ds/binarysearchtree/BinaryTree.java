@@ -35,7 +35,7 @@ public class BinaryTree<T extends Comparable<T>> {
     }
 
     public boolean add(T element) {
-        
+
         if (element == null) {
             return false;
         }
@@ -44,7 +44,7 @@ public class BinaryTree<T extends Comparable<T>> {
             return false;
         }
 
-        root = addRecursive(root, element);        
+        root = addRecursive(root, element);
         nodeCount++;
 
         return true;
@@ -65,8 +65,8 @@ public class BinaryTree<T extends Comparable<T>> {
         return current;
     }
 
-    public boolean contains(T element) {                
-        
+    public boolean contains(T element) {
+
         return containsNodeRecursive(root, element);
     }
 
@@ -139,16 +139,16 @@ public class BinaryTree<T extends Comparable<T>> {
 
         return findLeftmostNode(root).element;
     }
-    
+
     public T root() {
-        
+
         if (root == null) {
             return null;
         }
-        
+
         return root.element;
     }
-    
+
     public T max() {
 
         if (root == null) {
@@ -172,7 +172,7 @@ public class BinaryTree<T extends Comparable<T>> {
         while (node.right != null) {
             node = node.right;
         }
-        
+
         return node;
     }
 
@@ -215,7 +215,7 @@ public class BinaryTree<T extends Comparable<T>> {
                 printLevelOrder(root);
                 break;
             default:
-                break;
+                System.out.println("unknown order");
         }
     }
 
@@ -271,7 +271,7 @@ public class BinaryTree<T extends Comparable<T>> {
             return Collections.emptyList();
         }
 
-        List<T> treeList = new ArrayList<>();
+        List<T> treeList = new ArrayList<>(size());
 
         switch (to) {
             case IN:
@@ -287,7 +287,7 @@ public class BinaryTree<T extends Comparable<T>> {
                 traverseLevelOrderAsList(root, treeList);
                 break;
             default:
-                break;
+                return Collections.emptyList();
         }
 
         return treeList;
@@ -355,10 +355,8 @@ public class BinaryTree<T extends Comparable<T>> {
             case LEVEL:
                 return traverseLevelOrderAsIterator(root);
             default:
-                break;
+                return Collections.emptyIterator();
         }
-
-        return null;
     }
 
     private Iterator<T> traverseInOrderAsIterator(Node node) {
