@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         
         // An ArrayDeque implementation can be used as a Stack (Last-In-First-Out, LIFO) 
+        // ArrayDeque is not thread-safe
         Deque<String> stack = new ArrayDeque<>();
         
         stack.push("Rafael Nadal");
