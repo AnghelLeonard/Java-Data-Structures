@@ -36,7 +36,7 @@ public class BinaryTree<T extends Comparable<T>> {
 
     public boolean add(T element) {
         
-        if(element == null) {
+        if (element == null) {
             return false;
         }
 
@@ -44,8 +44,7 @@ public class BinaryTree<T extends Comparable<T>> {
             return false;
         }
 
-        root = addRecursive(root, element);
-        System.out.println(root.element);
+        root = addRecursive(root, element);        
         nodeCount++;
 
         return true;
