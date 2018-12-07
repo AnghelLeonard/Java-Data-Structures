@@ -90,6 +90,8 @@ public class BinaryTree<T extends Comparable<T>> {
         if (contains(element)) {
             root = deleteRecursive(root, element);
             nodeCount--;
+            
+            return true;
         }
 
         return false;
