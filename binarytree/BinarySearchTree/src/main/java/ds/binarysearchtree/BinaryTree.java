@@ -31,7 +31,7 @@ public class BinaryTree<T extends Comparable<T>> {
         PRE,
         IN,
         POST,
-        LEVEL
+        LEVEL       
     }
 
     public boolean add(T element) {
@@ -217,7 +217,7 @@ public class BinaryTree<T extends Comparable<T>> {
                 printLevelOrder(root);
                 break;
             default:
-                System.out.println("unknown order");
+                throw new IllegalArgumentException("Unrecognized traversal order");               
         }
     }
 
@@ -289,7 +289,7 @@ public class BinaryTree<T extends Comparable<T>> {
                 traverseLevelOrderAsList(root, treeList);
                 break;
             default:
-                return Collections.emptyList();
+                throw new IllegalArgumentException("Unrecognized traversal order");
         }
 
         return treeList;
@@ -357,7 +357,7 @@ public class BinaryTree<T extends Comparable<T>> {
             case LEVEL:
                 return traverseLevelOrderAsIterator(root);
             default:
-                return Collections.emptyIterator();
+                throw new IllegalArgumentException("Unrecognized traversal order");
         }
     }
 
