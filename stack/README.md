@@ -21,6 +21,6 @@
 
 # Java Stack Implementations
 
-- java.util.Stack, but prefer java.util.Deque since Stack relies on the synchronized Vector (Stack methods are synchronized)
+- java.util.Stack, but prefer java.util.Deque since Stack relies on the synchronized Vector (Stack methods are synchronized), [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/stack/StackViaStack)
 - java.util.ArrayDeque (**not thread-safe** stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaArrayDeque)
 - java.util.concurrent.ConcurrentLinkedDeque (**thread-safe** stack alike) [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/stack/StackViaConcurrentLinkedDeque)
