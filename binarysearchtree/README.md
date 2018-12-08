@@ -18,4 +18,4 @@
 # Java Implementations for Binary Search Trees
 
 - No Java default implementation
-- This is an [example]() of a binary search tree implementation providing the following features (add, delete, print, get the tree as a list or iterator traversed in-order, pre-order, post-order and level-order, min, max, size, height, contains, etc)
+- This is an [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/binarysearchtree/BinarySearchTree) of a binary search tree implementation providing the following features (add, delete, print, get the tree as a list or iterator traversed in-order, pre-order, post-order and level-order, min, max, size, height, contains, etc)
