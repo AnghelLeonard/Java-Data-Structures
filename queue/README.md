@@ -14,7 +14,7 @@
 *java.util.Deque is a subiterface of java.utilQueue*
 
 - java.util.ArrayDeque, **not thread-safe**, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/queue/QueueViaArrayDeque)
-- java.util.concurrency.ArrayBlockingQueue, **thread-safe**, [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/queue/QueueViaArrayBlockingQueueProducerConsumer)
-- java.util.concurrent.ConcurrentLinkedDeque and java.util.ConcurrentLinkedQueue, thread-safe, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/queue/QueueViaConcurrentLinkedDeque)
-- java.util.LinkedList, not thread-safe and not efficient, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/queue/QueueViaLinkedList)
+- java.util.concurrent.ArrayBlockingQueue, **thread-safe**, [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/queue/QueueViaArrayBlockingQueueProducerConsumer)
+- java.util.concurrent.ConcurrentLinkedDeque and java.util.ConcurrentLinkedQueue, **thread-safe**, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/queue/QueueViaConcurrentLinkedDeque)
+- java.util.LinkedList, **not thread-safe and not efficient**, [example](https://github.com/AnghelLeonard/Data-Structures/tree/master/queue/QueueViaLinkedList)
 
