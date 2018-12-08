@@ -9,7 +9,7 @@
 - implement the arithmetic coding algorithm
 - count inversions in an array
 
-# Java Implementations for Fenwick Tree or Binary Indexed Tree
+# Java Implementations for Fenwick Tree (Binary Indexed Tree)
 
 - No Java default implementation
 - Implementation supporting point update [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/fenwicktree/RangeQueryAndPointUpdate)
