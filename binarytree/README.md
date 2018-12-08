@@ -1,10 +1,10 @@
 # Binary Search Tree
-(Binary trees become truly useful for searching when you balance them)
+**Statement: Binary trees become truly useful for searching when you balance them**
 
 **What kind of problems are commonly solved via binary search tree:**
 
-- Commonly used in search applications having data entering/leaving in a constant way (e.g., *map*/*set* objects languages libraries.
-- Build binary heaps where higher keys are above or equal to lower ones rather than to the left of (or below or equal to and right).
+- Used in search applications having data entering/leaving in a constant way (e.g., *map*/*set* objects languages libraries.
+- Binary heaps where higher keys are above or equal to lower ones rather than to the left of (or below or equal to and right).
 - Hash trees, similar to hash tables.
 - Implementing routing table in router.
 - To solve database problem such as indexing.
