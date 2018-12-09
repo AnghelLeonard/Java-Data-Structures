@@ -4,7 +4,8 @@ public class Main {
     
     public static void main(String[] args) {
         
-        // 0.3 = 30% false positive probability wanted, 10 elements expected
+        // use one of the available constructors
+        // 0.3 = 30% false positives probability expected, 10 elements expected
         BloomFilter bf = new BloomFilter(0.3, 10); 
        
         bf.add("Octavia");
@@ -25,6 +26,9 @@ public class Main {
                 + bf.getFalsePositiveProbabilityAsPercent());
         System.out.println("Number of hash functions: " 
                 + bf.getNumberOfHashFunctions());
+        
+        System.out.println("Marua is there? " + bf.contains("Marua")); // expected true
+        System.out.println("Alexandra is there? " + bf.contains("Alexandra")); // expected false
         
     }        
 }
