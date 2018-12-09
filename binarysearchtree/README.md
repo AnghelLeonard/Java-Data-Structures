@@ -1,5 +1,5 @@
 # Binary Search Tree
-**Statement: Binary trees become truly useful for searching when you balance them**
+**Statement: Binary trees become truly useful for searching when you balance them. This example is not balanced. For such cases, please see AVL and Red-Black Trees examples (links coming soon)**
 
 **What kind of problems are commonly solved via binary search tree:**
 
