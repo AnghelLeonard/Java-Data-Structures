@@ -25,4 +25,8 @@
 - Apache HBase uses bloom filter to boost read speed by filtering out unnecessary disk reads of HFile blocks which do not contain a particular row or column
 - Cassandra uses bloom filters
  
- **Java implementation of Bloom Filter**
+ # Java implementation for Bloom Filter
+ 
+ - No default JDK implementation
+ - Guava Implementation [example](https://www.baeldung.com/guava-bloom-filter)
+ - Bloom Filter implementation with hash functions based on SHA-256 and Murmur [example]()
