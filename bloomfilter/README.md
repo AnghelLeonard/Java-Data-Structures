@@ -2,8 +2,8 @@
 
 **What kind of problems are commonly solved via bloom filter:**
 
-- Malicious websites and a browser
-- Is a passwords weak
+- Malicious websites and a browser (track malicious URLs)
+- Check if a password is weak
 - If you have a list of articles and a list of users, you can use bloom filter to show users' articles they have not read
 - Bitcoin wallet synchronization
 - Akamai's web servers use Bloom filters to prevent "one-hit-wonders" from being stored in its disk caches
@@ -25,3 +25,4 @@
 - Apache HBase uses bloom filter to boost read speed by filtering out unnecessary disk reads of HFile blocks which do not contain a particular row or column
 - Cassandra uses bloom filters
  
+ **Java implementation of Bloom Filter**
