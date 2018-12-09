@@ -14,7 +14,7 @@
 - Cache optimization
 - Youtube recommendations
 - Keep track of the pages that a given user has visited without actually being able to enumerate the links they have visited
-- We use a modified version of bloom-filter to efficiently detect and eliminate the boiler plates that occur in the text that we crawl.
+- Use a modified version of bloom-filter to efficiently detect and eliminate the boiler plates that occur in the text that we crawl.
 - Reduce the number of lookups to the db
 - Facebook uses bloom filters for typeahead search, to fetch friends and friends of friends to a user typed query
 - LinkedIn also uses bloom filters for type ahead query in a very similar way as Facebook
