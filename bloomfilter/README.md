@@ -29,4 +29,4 @@
  
  - No default JDK implementation
  - Guava Implementation [example](https://www.baeldung.com/guava-bloom-filter)
- - Bloom Filter implementation with hash functions based on SHA-256 and Murmur [example]()
+ - Bloom Filter implementation with hash functions based on SHA-256 and Murmur [example](https://github.com/AnghelLeonard/Java-Data-Structures/tree/master/bloomfilter/BloomFilterImpl)
