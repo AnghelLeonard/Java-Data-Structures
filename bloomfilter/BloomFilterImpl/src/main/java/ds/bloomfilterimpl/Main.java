@@ -1,12 +1,10 @@
 package ds.bloomfilterimpl;
 
-import java.security.NoSuchAlgorithmException;
-
 public class Main {
     
-    public static void main(String[] args) throws NoSuchAlgorithmException {
+    public static void main(String[] args) {
         
-        // 0.3 = 30%, 10 elements expected
+        // 0.3 = 30% false positive probability wanted, 10 elements expected
         BloomFilter bf = new BloomFilter(0.3, 10); 
        
         bf.add("Octavia");
